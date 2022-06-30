@@ -24,7 +24,6 @@ Clone the repository
 
 After replacing the credentials file in project folder , Go to the Project folder and run Command Prompt. Now run the following commands : 
 
-    ```bash
     cd {{Your current directory location (Copy-Paste it from the directory bar)}}
     
     python manage.py makemigrations
@@ -32,7 +31,6 @@ After replacing the credentials file in project folder , Go to the Project folde
     python manage.py migrate
     
     python manage.py runserver
-    ```
     
  
 <b> Step 5 </b>

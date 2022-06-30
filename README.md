@@ -16,6 +16,8 @@ Clone the repository
 
     Login to https://console.developers.google.com, create your own google calendar api credentials.
 
+    Download the credential file in the JSON format and move it to the project folder.
+
 <b> You need to rename your credetials.json file as "client_secret.json" </b>
 
 <b> Step 4 </b>
@@ -30,13 +32,12 @@ After replacing the credentials file in project folder , Go to the Project folde
     python manage.py migrate
     
     python manage.py runserver
-
     ```
     
  
 <b> Step 5 </b>
 
-Now open your Preferd Browser and enter the following url in searchbar.
+Now open your Preferred Browser and enter the following url in searchbar.
 
     http://localhost:8000/rest/v1/calendar/init/
     
